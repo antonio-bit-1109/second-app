@@ -2,7 +2,7 @@ import ImageComponent from "./ImageComponent";
 import Block from "./Block";
 import ButtonComponents from "./ButtonComponents";
 
-import cucinare from "./imgs/cucinare.jpg";
+import cucinare from "../imgs/cucinare.jpg";
 
 const Franchenstein = () => {
     return (
