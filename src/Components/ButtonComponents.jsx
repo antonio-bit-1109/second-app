@@ -1,6 +1,7 @@
 const ButtonComponents = (props) => {
     return (
         <button
+            className="button-super"
             style={{
                 marginBlock: props.marginBlock,
                 padding: props.padding,
