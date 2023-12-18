@@ -6,6 +6,7 @@ const ButtonComponents = (props) => {
                 padding: props.padding,
                 borderRadius: props.borderRadius,
                 border: props.border,
+                margin: props.margin,
             }}
         >
             {props.content} + {props.content1}

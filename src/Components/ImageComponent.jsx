@@ -7,7 +7,11 @@ class ImageComponent extends Component {
                 <img
                     src={this.props.src}
                     alt={this.props.alt}
-                    style={{ maxWidth: this.props.maxWidth, borderRadius: this.props.borderRadius }}
+                    style={{
+                        maxWidth: this.props.maxWidth,
+                        borderRadius: this.props.borderRadius,
+                        margin: this.props.margin,
+                    }}
                 />
             </>
         );
