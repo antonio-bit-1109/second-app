@@ -9,13 +9,10 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-                    Learn React
-                </a>
+                <div>
+                    <ImageComponent src={img1} alt="img a caso " maxWidth="200px" />
+                    <ImageComponent src={img2} alt="img a caso " maxWidth="200px" />
+                </div>
                 <>
                     <ButtonComponents
                         content="Cliccami"
@@ -34,10 +31,6 @@ function App() {
                     />
                 </>
             </header>
-            <div>
-                <ImageComponent src={img1} alt="img a caso " maxWidth="200px" />
-                <ImageComponent src={img2} alt="img a caso " maxWidth="200px" />
-            </div>
         </div>
     );
 }
