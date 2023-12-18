@@ -1,5 +1,5 @@
 import ImageComponent from "./ImageComponent";
-import imgAnimale from "./imgs/aniamli.jpg";
+import imgAnimale from "../imgs/aniamli.jpg";
 import Block from "./Block";
 
 const FormComponent = (props) => {

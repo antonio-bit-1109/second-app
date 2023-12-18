@@ -2,11 +2,12 @@
 import "./App.css";
 import ButtonComponents from "./Components/ButtonComponents";
 import ImageComponent from "./Components/ImageComponent";
-import img1 from "./Components/imgs/img-a-caso.jpg";
-import img2 from "./Components/imgs/spiaggia.jpg";
+import img1 from "./imgs/img-a-caso.jpg";
+import img2 from "./imgs/spiaggia.jpg";
 import FormComponent from "./Components/FormComponent";
 import Block from "./Components/Block";
 import Franchenstein from "./Components/Franchenstein";
+import ComponentsBlock from "./Components/ComponentsBlockSeconds";
 
 function App() {
     return (
@@ -49,6 +50,11 @@ function App() {
                 par3=" bla bla bla bla bla bla bla blb"
             />
             <>{<Franchenstein />}</>
+            <>
+                <ComponentsBlock backgroundColor="red" />
+                <ComponentsBlock backgroundColor="purple" />
+                <ComponentsBlock backgroundColor="green" />
+            </>
         </div>
     );
 }
